@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', 'PageController@index', 'PageController@list');
-Route::get('/list', 'PageController@list');
+Route::get('/list', 'PageController@list')->name('list');

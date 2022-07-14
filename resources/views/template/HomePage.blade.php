@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div>
+        <a href="{{ route('list') }}">accedi alla lista film</a>
+    </div>
 </body>
 </html>
